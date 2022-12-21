@@ -11,6 +11,9 @@ const routes = [
     path: '/auth',
     name: 'auth',
     component: () => import(/* webpackChunkName: "about" */ '../views/AuthView.vue'),
+    meta: {
+      layout: 'Empty',
+    },
   },
 ];
 

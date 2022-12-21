@@ -1,10 +1,20 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/auth">About</router-link>
-  </nav>
-  <router-view />
+  <component :is="layout">
+    <RouterView></RouterView>
+  </component>
 </template>
+
+<script setup>
+import DefaultLayout from '@/layout/DefaultLayout.vue';
+import EmptyLayout from '@/layout/EmptyLayout.vue';
+import { computed } from 'vue';
+import { useRoute } from 'vue-router';
+
+const route = useRoute();
+
+const layout = computed(() => (route.meta.layout ? EmptyLayout : DefaultLayout));
+console.log('ddd');
+</script>
 
 <style lang="scss">
 #app {
