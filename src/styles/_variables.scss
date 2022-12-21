@@ -1,0 +1,20 @@
+:root {
+  --background: #efefef;
+  --text-color: #3c3c3c;
+  --btn-primary: #2f80ed;
+  --btn-secondary: #73bcff;
+}
+:root[theme='dark'] {
+  --background: #242424;
+  --background-element: #2f2f2f;
+  --text-color: #fff;
+  --btn-primary: #2f80ed;
+  --btn-secondary: #73bcff;
+}
+
+// base color
+$bg: var(--background);
+$bg-element: var(--background-element);
+$text-color: var(--text-color);
+$btn-color: var(--btn-primary);
+$btn-color-hover: var(--btn-secondary);
