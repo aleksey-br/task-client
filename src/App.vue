@@ -16,27 +16,4 @@ const layout = computed(() => (route.meta.layout ? EmptyLayout : DefaultLayout))
 console.log('ddd');
 </script>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: $text-color;
-  background: $bg;
-}
-
-nav {
-  padding: 30px;
-  background: $bg-element;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+<style lang="scss"></style>
