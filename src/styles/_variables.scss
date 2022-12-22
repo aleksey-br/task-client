@@ -1,5 +1,6 @@
 :root {
   --background: #efefef;
+  --background-element: #fff;
   --text-color: #3c3c3c;
   --btn-primary: #2f80ed;
   --btn-secondary: #73bcff;
@@ -18,3 +19,11 @@ $bg-element: var(--background-element);
 $text-color: var(--text-color);
 $btn-color: var(--btn-primary);
 $btn-color-hover: var(--btn-secondary);
+
+// base size
+
+$xxl: 1200px;
+$xl: 992px;
+$lg: 768px;
+$md: 480px;
+$sm: 320px;

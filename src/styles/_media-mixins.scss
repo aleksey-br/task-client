@@ -1,0 +1,31 @@
+//media_mixin.scss
+@mixin _2xl {
+  @media (max-width: $xxl) {
+    @content;
+  }
+}
+@mixin _xl {
+  @media (max-width: $xl) {
+    @content;
+  }
+}
+@mixin _lg {
+  @media (max-width: $lg) {
+    @content;
+  }
+}
+@mixin _600 {
+  @media (max-width: 600px) {
+    @content;
+  }
+}
+@mixin _md {
+  @media (max-width: $md) {
+    @content;
+  }
+}
+@mixin _sm {
+  @media (max-width: $sm) {
+    @content;
+  }
+}

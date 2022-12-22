@@ -13,7 +13,6 @@ import { useRoute } from 'vue-router';
 const route = useRoute();
 
 const layout = computed(() => (route.meta.layout ? EmptyLayout : DefaultLayout));
-console.log('ddd');
 </script>
 
 <style lang="scss"></style>
