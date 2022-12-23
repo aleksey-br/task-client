@@ -13,7 +13,8 @@
     "normalize-scss": "^7.0.1",
     "oh-vue-icons": "^1.0.0-rc3",
     "vue": "^3.2.13",
-    "vue-router": "^4.0.3"
+    "vue-router": "^4.0.3",
+    "vue-slicksort": "^2.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
