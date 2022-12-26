@@ -1,4 +1,10 @@
-import { addIcons } from 'oh-vue-icons';
-import { RiArrowDownSFill, RiArrowUpSFill, GiHamburgerMenu } from 'oh-vue-icons/icons';
+import { library } from '@fortawesome/fontawesome-svg-core';
 
-addIcons(RiArrowDownSFill, RiArrowUpSFill, GiHamburgerMenu);
+import {
+  faArrowRightFromBracket,
+  faBars,
+  faSortDown,
+  faSortUp,
+} from '@fortawesome/free-solid-svg-icons';
+
+library.add(faBars, faSortDown, faSortUp, faArrowRightFromBracket);

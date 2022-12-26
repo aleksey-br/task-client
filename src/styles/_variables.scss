@@ -2,6 +2,7 @@
   --background: #efefef;
   --background-element: #fff;
   --text-color: #3c3c3c;
+  --text-secondary: #9f9f9f;
   --btn-primary: #2f80ed;
   --btn-secondary: #73bcff;
 }
@@ -9,6 +10,7 @@
   --background: #242424;
   --background-element: #2f2f2f;
   --text-color: #fff;
+  --text-secondary: #9f9f9f;
   --btn-primary: #2f80ed;
   --btn-secondary: #73bcff;
 }
@@ -17,6 +19,7 @@
 $bg: var(--background);
 $bg-element: var(--background-element);
 $text-color: var(--text-color);
+$text-color-secondary: var(--text-secondary);
 $btn-color: var(--btn-primary);
 $btn-color-hover: var(--btn-secondary);
 

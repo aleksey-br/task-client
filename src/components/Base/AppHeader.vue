@@ -11,17 +11,14 @@
             N
             <!-- <img src="#" alt="avatar" /> -->
           </div>
-          <!-- <v-icon
-            class="profile__icon"
-            :name="isDropdown ? 'ri-arrow-up-s-fill' : 'ri-arrow-down-s-fill'"
-            scale="1"
-          ></v-icon> -->
-          <i :class="[{ 'icon-open': isDropdown }, { profile__icon: !isDropdown }]"></i>
+          <awesome-icon :icon="isDropdown ? 'fa-sort-up' : 'fa-sort-down'"></awesome-icon>
         </div>
         <transition name="dropdown-fade">
           <div class="profile__dropdown" v-click-outside="changeDropdown" v-if="isDropdown">
             <ul class="dropdown__list">
-              <li class="dropdown__item">Sing Out</li>
+              <li class="dropdown__item">
+                <awesome-icon icon="fa-arrow-right-from-bracket "></awesome-icon>Sing Out
+              </li>
             </ul>
           </div>
         </transition>
